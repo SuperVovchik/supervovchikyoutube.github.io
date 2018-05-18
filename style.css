@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	height: 100%;
+}
+.wrapper {
+	width: 100%;
+	min-width: 1000px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 200px;
+	background: url(header2.jpg);
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	width: 100%;
+	padding: 0 0 200px;
+	position: relative;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+.content {
+	padding: 0 0 0 270px;
+    background: url(fon6.jpg);
+    height: 500px;
+    color: azure;
+}
+
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+	float: left;
+	width: 250px;
+	margin-left: -100%;
+	position: relative;
+	background: ;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	margin: -150px auto 0;
+	min-width: 1000px;
+	height: 150px;
+	background: url(fon6.jpg);
+	position: relative;
+    text-align: center;
+    color: red;
+    
+     
+}
+.footer p{
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#menu {
+        width: 200px;
+        border-style: solid solid none solid;
+        border-color: #A9A9A9;
+        border-size: 1px;
+        border-width: 1px;
+        margin: 10px;
+        }
+
+#menu li a {
+        height: 32px;
+          voice-family: "\"}\"";
+          voice-family: inherit;
+          height: 24px;
+        text-decoration: none;
+        }
+
+#menu li a:link, #menu li a:visited {
+        color: #000000;
+        display: block;
+        background: url(menu1.gif);
+        padding: 8px 0 0 10px;
+        }
+
+#menu li a:hover, #menu li #current {
+        color: #A9A9A9;
+        background: url(menu1.gif) 0 -32px;
+        padding: 8px 0 0 10px;
+        }
+
+#menu li a:active {
+        color: #A9A9A9;
+        background: url(menu1.gif) 0 -64px;
+        padding: 8px 0 0 10px;
+        }
